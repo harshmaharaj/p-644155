@@ -22,10 +22,10 @@ export const ProfileSection = () => {
               </div>
             </div>
             <div className="flex gap-5 text-base 2xl:text-lg tracking-[-0.48px] mt-[8%]">
-              <button className="self-stretch bg-white hover:bg-white/90 transition-colors min-w-[136px] 2xl:min-w-[156px] gap-2 overflow-hidden text-black font-medium w-[140px] 2xl:w-[160px] px-5 py-3 2xl:py-4 rounded-[10px]">
+              <button className="self-stretch bg-white hover:bg-[#FC6313] hover:text-white transition-colors min-w-[136px] 2xl:min-w-[156px] gap-2 overflow-hidden text-black font-medium w-[140px] 2xl:w-[160px] px-5 py-3 2xl:py-4 rounded-[10px]">
                 About me
               </button>
-              <button className="self-stretch border hover:bg-white/10 transition-colors min-w-[136px] 2xl:min-w-[156px] gap-2 overflow-hidden text-white font-normal w-[140px] 2xl:w-[160px] px-5 py-3 2xl:py-4 rounded-[10px] border-[rgba(220,220,220,0.3)] border-solid">
+              <button className="self-stretch border hover:bg-[#FC6313] hover:border-[#FC6313] transition-colors min-w-[136px] 2xl:min-w-[156px] gap-2 overflow-hidden text-white font-normal w-[140px] 2xl:w-[160px] px-5 py-3 2xl:py-4 rounded-[10px] border-[rgba(220,220,220,0.3)] border-solid">
                 See my work
               </button>
             </div>
