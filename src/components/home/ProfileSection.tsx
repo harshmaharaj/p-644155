@@ -4,7 +4,7 @@ import { StatCard } from "./StatCard";
 
 export const ProfileSection = () => {
   return (
-    <div className="w-[45%] max-md:w-full max-md:ml-0">
+    <div className="w-[30%] max-md:w-full max-md:ml-0">
       <div className="bg-black/10 backdrop-blur-md border border-white/10 shadow-[0px_5px_100px_rgba(0,0,0,0.7)] h-screen w-full px-[60px] py-20 max-md:max-w-full max-md:px-5 overflow-hidden">
         <div>
           <div className="flex w-full flex-col items-stretch">
