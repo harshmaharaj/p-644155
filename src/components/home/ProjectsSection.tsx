@@ -1,3 +1,4 @@
+
 import React from "react";
 import { ProjectCard } from "./ProjectCard";
 
@@ -20,7 +21,7 @@ export const ProjectsSection = () => {
               />
             </div>
           </div>
-          <div className="flex w-full gap-[26px] text-white flex-wrap mt-6 max-md:max-w-full">
+          <div className="flex w-full gap-[26px] text-white mt-6 max-md:max-w-full max-md:flex-wrap">
             <ProjectCard
               type="Mobile Product"
               image="https://cdn.builder.io/api/v1/image/assets/TEMP/da190de382fe9912de62f4df6c257334e32ba55b5a28de0ef95e70840d33b931"

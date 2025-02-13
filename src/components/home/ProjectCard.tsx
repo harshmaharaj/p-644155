@@ -15,7 +15,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   description,
 }) => {
   return (
-    <div className="w-[300px]">
+    <div className="grow shrink w-[167px]">
       <div className="bg-white/10 backdrop-blur-md border border-white/20 shadow-[12px_12px_32px_rgba(0,0,0,0.25)] flex flex-col overflow-hidden items-stretch px-4 py-[17px] rounded-2xl transition-all duration-300 hover:bg-white/20">
         <div className="text-base font-semibold tracking-[0.48px] text-white">
           {type}
@@ -23,7 +23,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
         <img
           loading="lazy"
           src={image}
-          className="aspect-[1] object-contain w-full mt-[15px]"
+          className="aspect-[1] object-contain w-[177px] mt-[15px] max-md:mr-0.5"
           alt={title}
         />
         <div className="mt-4">
@@ -31,7 +31,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
             {title}
           </div>
           <div className="min-h-px w-[65px] mt-2" />
-          <div className="text-[11px] font-normal mt-2 text-white/90">
+          <div className="max-w-full w-[179px] text-[11px] font-normal mt-2 text-white/90">
             {description}
           </div>
         </div>
