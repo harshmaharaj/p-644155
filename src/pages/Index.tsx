@@ -1,13 +1,15 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from "react";
+import { ProfileSection } from "@/components/home/ProfileSection";
+import { ProjectsSection } from "@/components/home/ProjectsSection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <main className="bg-[rgba(32,37,55,1)] overflow-hidden pr-[60px] max-md:pr-5">
+      <div className="gap-5 flex max-md:flex-col max-md:items-stretch">
+        <ProfileSection />
+        <ProjectsSection />
       </div>
-    </div>
+    </main>
   );
 };
 
