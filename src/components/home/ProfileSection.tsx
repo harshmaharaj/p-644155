@@ -2,7 +2,7 @@ import React from "react";
 import { StatCard } from "./StatCard";
 export const ProfileSection = () => {
   return <div className="w-[45%] max-md:w-full max-md:ml-0">
-      <div className="bg-black/10 backdrop-blur-md border border-white/20 shadow-[32px_0px_108px_rgba(0,0,0,0.7)] grow w-full pt-[120px] pb-[54px] px-[60px] max-md:max-w-full max-md:mt-10 max-md:pt-[100px] max-md:px-5">
+      <div className="bg-black/10 backdrop-blur-md border border-white/10 shadow-[0px_5px_100px_rgba(0,0,0,0.7)] grow w-full pt-[100%] pb-[54px] px-[60px] max-md:max-w-full max-md:mt-10 max-md:pt-[100px] max-md:px-5">
         <div>
           <div className="flex w-full flex-col items-stretch">
             <div className="w-full font-normal">
