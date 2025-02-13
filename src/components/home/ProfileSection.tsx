@@ -29,7 +29,7 @@ export const ProfileSection = () => {
               </button>
             </div>
           </div>
-          <div className="w-48 2xl:w-56 max-w-full">
+          <div className="w-48 2xl:w-56 max-w-full mt-[30px]">
             <h2 className="text-white text-xs 2xl:text-sm font-semibold tracking-[0.36px]">
               Professional Insights
             </h2>
