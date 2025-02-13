@@ -1,31 +1,22 @@
-
 import React from "react";
-
 interface ProjectCardProps {
   type: string;
   image: string;
   title: string;
   description: string;
 }
-
 export const ProjectCard: React.FC<ProjectCardProps> = ({
   type,
   image,
   title,
-  description,
+  description
 }) => {
-  return (
-    <div className="grow shrink w-[167px]">
-      <div className="bg-white/10 backdrop-blur-md border border-white/20 shadow-[12px_12px_32px_rgba(0,0,0,0.25)] flex flex-col overflow-hidden items-stretch px-4 py-[17px] rounded-2xl transition-all duration-300 hover:bg-white/20">
+  return <div className="grow shrink w-[167px]">
+      <div className="bg-black/10 backdrop-blur-md border border-white/20 shadow-[12px_12px_32px_rgba(0,0,0,0.15)] flex flex-col overflow-hidden items-stretch px-4 py-[17px] rounded-2xl transition-all duration-300 hover:bg-white/20">
         <div className="text-base font-semibold tracking-[0.48px] text-white">
           {type}
         </div>
-        <img
-          loading="lazy"
-          src={image}
-          className="aspect-[1] object-contain w-[177px] mt-[15px] max-md:mr-0.5"
-          alt={title}
-        />
+        <img loading="lazy" src={image} className="aspect-[1] object-contain w-[177px] mt-[15px] max-md:mr-0.5" alt={title} />
         <div className="mt-4">
           <div className="text-lg font-extrabold tracking-[0.54px] text-white">
             {title}
@@ -36,6 +27,5 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
