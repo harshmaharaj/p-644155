@@ -6,7 +6,7 @@ import { ProjectsSection } from "@/components/home/ProjectsSection";
 const Index = () => {
   return (
     <main 
-      className="bg-[rgba(32,37,55,1)] overflow-hidden pr-[60px] max-md:pr-5 min-h-screen"
+      className="bg-[rgba(32,37,55,1)] h-screen overflow-hidden pr-[60px] max-md:pr-5"
       style={{
         backgroundImage: 'url("/lovable-uploads/d3af4575-d78a-4bf4-a7af-a138973c6e8f.png")',
         backgroundSize: 'cover',
@@ -14,7 +14,7 @@ const Index = () => {
         backgroundRepeat: 'no-repeat'
       }}
     >
-      <div className="gap-5 flex max-md:flex-col max-md:items-stretch">
+      <div className="gap-5 flex h-full max-md:flex-col max-md:items-stretch">
         <ProfileSection />
         <ProjectsSection />
       </div>
