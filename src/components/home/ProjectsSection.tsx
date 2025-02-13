@@ -4,7 +4,7 @@ import { ProjectCard } from "./ProjectCard";
 
 export const ProjectsSection = () => {
   return (
-    <div className="w-[55%] ml-5 max-md:w-full max-md:ml-0">
+    <div className="w-[65%] ml-5 max-md:w-full max-md:ml-0">
       <div className="flex w-full flex-col items-stretch mt-[193px] max-md:max-w-full max-md:mt-10">
         <div className="w-full max-md:max-w-full">
           <div className="flex w-full items-center gap-[40px_100px] text-lg justify-between flex-wrap max-md:max-w-full">
