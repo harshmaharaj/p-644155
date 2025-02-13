@@ -1,11 +1,8 @@
-
 import React from "react";
 import { StatCard } from "./StatCard";
-
 export const ProfileSection = () => {
-  return (
-    <div className="w-[35%] 2xl:w-[35%] max-md:w-full max-md:ml-0">
-      <div className="bg-black/10 backdrop-blur-md border border-white/10 shadow-[0px_5px_100px_rgba(0,0,0,0.7)] h-screen w-full px-[60px] 2xl:px-[80px] py-20 2xl:py-28 max-md:max-w-full max-md:px-5 overflow-hidden">
+  return <div className="w-[35%] 2xl:w-[35%] max-md:w-full max-md:ml-0">
+      <div className="bg-black/10 backdrop-blur-md border border-white/10 shadow-[0px_5px_100px_rgba(0,0,0,0.7)] h-screen w-full 2xl:px-[80px] 2xl:py-28 max-md:max-w-full overflow-hidden px-[40px] py-[80px]">
         <div className="h-full flex flex-col justify-between">
           <div className="flex w-full flex-col items-stretch">
             <div className="w-full font-normal">
@@ -32,41 +29,24 @@ export const ProfileSection = () => {
               </button>
             </div>
           </div>
-          <div className="w-48 2xl:w-56 max-w-full mt-auto mb-0">
+          <div className="w-48 2xl:w-56 max-w-full">
             <h2 className="text-white text-xs 2xl:text-sm font-semibold tracking-[0.36px]">
               Professional Insights
             </h2>
             <div className="flex w-full flex-col mt-4 2xl:mt-6">
-              <StatCard
-                icon="https://cdn.builder.io/api/v1/image/assets/TEMP/81e4f78ec6c1b609c1522398bd1969a139207a43aeaf7654a29f56c09dc72917"
-                count="6+"
-                label="Year of Experience"
-              />
+              <StatCard icon="https://cdn.builder.io/api/v1/image/assets/TEMP/81e4f78ec6c1b609c1522398bd1969a139207a43aeaf7654a29f56c09dc72917" count="6+" label="Year of Experience" />
               <div className="mt-6 2xl:mt-8">
-                <StatCard
-                  icon="https://cdn.builder.io/api/v1/image/assets/TEMP/44cd0b618e7b22fd7a222f4e85272018959d428988761fb98ba62cb598e40afc"
-                  count="10+"
-                  label="Product Designed"
-                />
+                <StatCard icon="https://cdn.builder.io/api/v1/image/assets/TEMP/44cd0b618e7b22fd7a222f4e85272018959d428988761fb98ba62cb598e40afc" count="10+" label="Product Designed" />
               </div>
               <div className="mt-6 2xl:mt-8">
-                <StatCard
-                  icon="https://cdn.builder.io/api/v1/image/assets/TEMP/948b638a6bf1ca2bd7c8d1d9439a14d1c1a38e4e447b15fa43de22e8030509e8"
-                  count="3+"
-                  label="Article Published"
-                />
+                <StatCard icon="https://cdn.builder.io/api/v1/image/assets/TEMP/948b638a6bf1ca2bd7c8d1d9439a14d1c1a38e4e447b15fa43de22e8030509e8" count="3+" label="Article Published" />
               </div>
               <div className="mt-6 2xl:mt-8">
-                <StatCard
-                  icon="https://cdn.builder.io/api/v1/image/assets/TEMP/92711583858375920a3a7994a0279d08aa6c10eaab5278cafa8fc2726c752866"
-                  count="B2B & B2C"
-                  label="Industry Expertise"
-                />
+                <StatCard icon="https://cdn.builder.io/api/v1/image/assets/TEMP/92711583858375920a3a7994a0279d08aa6c10eaab5278cafa8fc2726c752866" count="B2B & B2C" label="Industry Expertise" />
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
