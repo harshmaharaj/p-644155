@@ -11,7 +11,7 @@ export const ProfileSection = () => {
                 <span className="font-light">Hello! </span>
                 <br />
                 <span className="font-light">I'm Kumar </span>
-                <span className="font-bold text-white">Harsh</span>
+                <span className="font-bold text-[#FC6313]">Harsh</span>
               </h1>
               <div className="text-neutral-300 text-xl 2xl:text-2xl leading-[47px] 2xl:leading-[57px] mt-1.5">
                 <span className="font-light">A </span>
