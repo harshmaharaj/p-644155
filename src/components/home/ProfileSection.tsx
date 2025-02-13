@@ -6,7 +6,7 @@ export const ProfileSection = () => {
   return (
     <div className="w-[35%] 2xl:w-[35%] max-md:w-full max-md:ml-0">
       <div className="bg-black/10 backdrop-blur-md border border-white/10 shadow-[0px_5px_100px_rgba(0,0,0,0.7)] h-screen w-full px-[60px] 2xl:px-[80px] py-20 2xl:py-28 max-md:max-w-full max-md:px-5 overflow-hidden">
-        <div>
+        <div className="h-full flex flex-col justify-between">
           <div className="flex w-full flex-col items-stretch">
             <div className="w-full font-normal">
               <h1 className="text-white text-5xl 2xl:text-6xl leading-[57px] 2xl:leading-[67px] tracking-[1.44px] max-md:text-[40px] max-md:leading-[53px]">
@@ -23,7 +23,7 @@ export const ProfileSection = () => {
                 <span className="font-light"> easy to use</span>
               </div>
             </div>
-            <div className="flex gap-5 text-base 2xl:text-lg tracking-[-0.48px] mt-10 2xl:mt-14">
+            <div className="flex gap-5 text-base 2xl:text-lg tracking-[-0.48px] mt-[8%]">
               <button className="self-stretch bg-white min-w-[136px] 2xl:min-w-[156px] gap-2 overflow-hidden text-black font-medium w-[140px] 2xl:w-[160px] px-5 py-3 2xl:py-4 rounded-[10px]">
                 Talk with me
               </button>
@@ -32,7 +32,7 @@ export const ProfileSection = () => {
               </button>
             </div>
           </div>
-          <div className="w-48 2xl:w-56 max-w-full mt-[103px] 2xl:mt-[123px] max-md:mt-10">
+          <div className="w-48 2xl:w-56 max-w-full">
             <h2 className="text-white text-xs 2xl:text-sm font-semibold tracking-[0.36px]">
               Professional Insights
             </h2>
